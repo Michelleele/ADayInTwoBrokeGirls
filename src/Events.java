@@ -11,7 +11,7 @@ public class Events {
 
     public void setCharacter(int indexNum) {
         Responses x = new Responses();
-        npcResponses = x.getResponces(indexNum);
+        npcResponses = x.getResponses(indexNum);
     }
 
 
