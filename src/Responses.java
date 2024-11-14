@@ -5,14 +5,11 @@ public class Responses {
                     {"Unless you're bringing me cash, cupcakes, or a ticket out of here, I'm not sure what we have to talk about", "Look, unless you're here to solve all of my problems or clean the dishes, I'm not interested. And trust me, both are equally impossible."},
                     //greetings responses[0][0]
 
-                    {"Oh great. Another lost soul here to grace me with their presence. Can I help you, or are you just here to lower my expectations further?"},
+                    {"Oh look what we got here. Another lost soul to grace me with their presence. Can I help you, or are you just here to lower my expectations further?"},
                     //When max first sees main responses[0][1]
 
-                    {"Wait, Caroline.... This is our window of opportunity!","I just might be since I died", "I wanna meet the owner of this awesome and totally cool cupcake shop? Oh never mind, that's me!"},
-                    //responses during event one, responses[0][2]
-
-                    {"I'm McHappy."}
-                    //Happy max responses[0][3]
+                    {"Then what better place to be than in this dumpster?", ""}
+                    //sassy max responses[0][3]
 
             },
 
@@ -29,7 +26,7 @@ public class Responses {
 
             // Caroline responses[2]
             {
-                    {"Max what a great idea! a cupcake walk-up window, you're a genius!"}
+                    {"Max what a great idea! A cupcake walk-up window, you're a genius!"}
             }
 };
     public String [][] getResponses(int indexNum) {
