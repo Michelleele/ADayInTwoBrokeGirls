@@ -4,7 +4,7 @@ public class Intro {
             "Or no other options. Which one is it?"
     };
     private String [] carolineSetLines = {
-            "How sweet! And brave. I wouldn't be here right now if my entire life doesn't depend on it.",
+            "How sweet! And brave. I wouldn't be here right now if my entire life doesn't depend on it. What's you're name? ",
             "Good Luck!"
     };
     private String [] hanSetLines = {
@@ -15,14 +15,25 @@ public class Intro {
             "Honey, around here, survival is all about keeping your head down and your sass up."
     };
 
-    private String [][] maxPossibleLines = {
+    private String [][][] maxPossibleLines = {
 
             {
-                "Should I just bring them a cup of actual dishwater and see if they know the difference?", "Where do they think they are, the Palace of Versailles?"
+                    {
+                        "Should I just bring them a cup of actual dishwater and see if they know the difference?",  "Where do they think they are, the Palace of Versailles?"
+                    }, // two possible max response to the first set of customers
+
+                    {
+                        ""
+                    },
+
+                    {
+
+                    }
+
             },
 
             {
-                ""
+
             }
 
     };
