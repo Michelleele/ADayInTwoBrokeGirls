@@ -4,10 +4,12 @@ public class ActOne {
             "And decaf for me. But not the stale kind you usually serve here."
     };
 
-    private String [] userResponses = {
-            "I'll make sure its the freshest coffee you've ever had.",
-            "Are you sure you're in the right diner for \"perfect coffee\"?",
-            "Got it! Coming right up!"
+    private String [][] userResponses = {
+            {
+                    "I'll make sure its the freshest coffee you've ever had.",
+                    "Are you sure you're in the right diner for \"perfect coffee\"?",
+                    "Got it! Coming right up!"
+            }
     };
 
     private String [][] maxLines = {
