@@ -6,15 +6,8 @@ public class Intro {
             "Welcome to a day in the life of the 2 Broke Girls!",
             "You found yourself as a first day trainee at the Williamsburg Diner of the viral TV show 2 Broke Girls.",
             "Your goal is to survive your first day at the diner and take care of the customers.",
-            "When being asked to make selection, please enter one choice numbers.",
+            "When being asked to make selection, please enter one of the choice numbers.",
             "And of course, since it is the Williamsburg Diner, its okay to not be professional!"
-    };
-    public String [] carolineSetLines = {
-            "I'm Caroline. If Max scares you, don't worry, I'm here to make sure you survive your first day. Stick with me, and you'll do fine",
-    };
-    public String [] hanSetLines = {
-            "Hello everyone! Ah there's my new intern. You see Max, I finally have someone that actually works in here!",
-            "Alrighty then, take your time and explore the place and just try to familiarize yourself. I'll be in my office if you need anything.",
     };
 
     public String [] setLines = {
@@ -25,13 +18,9 @@ public class Intro {
             "Han: Alrighty then, take your time and explore the place and just try to familiarize yourself. I'll be in my office if you need anything.",
     };
 
-    public String [][] introEvents = {
-            {
-                "Max: Oh great, fresh meat. You must be the new \"unpaid intern\" Han hired to do the jobs we hate.",
-            },
-            {
-                "Earl: Honey, around here, survival is all about keeping your head down and your sass up."
-            }
+    public String [] introSelections = {
+            "Max: Oh great, fresh meat. You must be the new \"unpaid intern\" Han hired to do the jobs we hate.",
+            "Earl: Honey, around here, survival is all about keeping your head down and your sass up."
             //user can choose what to respond
     };
 
@@ -53,9 +42,9 @@ public class Intro {
     //corresponding Max replies to user
     public String [][] maxResponses = {
             {
-                    "Oh look, an eager beaver. Don't worry, we'll break you in soon enough.",
-                    "Whoa. First day and already throwing shade? I think I might actually like you.",
-                    "You'll see. Think of it as a crash course in life's disappointment."
+                    "Max: Oh look, an eager beaver. Don't worry, we'll break you in soon enough.",
+                    "Max: Whoa. First day and already throwing shade? I think I might actually like you.",
+                    "Max: You'll see. Think of it as a crash course in life's disappointment."
             }
     };
 

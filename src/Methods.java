@@ -3,13 +3,10 @@ public class Methods {
     Scanner kyx = new Scanner(System.in);
     public int userInput;
     public String enterSelection = "Enter the number of your chosen response: ";
+    public String userGreetingCustomer = "You: Hey guys! What can I get you?\n\n";
 
-    public String getSetLine(String [] lines, int indexNum) {
-        return lines[indexNum];
-    }
-
-    public String randomResponse(String[][] lines, int questionNum, int numOfChoices) {
-        int x = (int) (Math.random() * (numOfChoices + 1));
+    public String randomResponse(String[][] lines, int questionNum, int indexNum) {
+        int x = (int) (Math.random() * (indexNum + 1));
         return lines[questionNum][x];
     }
 
