@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class Methods {
     Scanner kyx = new Scanner(System.in);
-    int userInput;
+    public int userInput;
+    public String enterSelection = "Enter the number of your chosen response: ";
 
     public String getSetLine(String [] lines, int indexNum) {
         return lines[indexNum];
@@ -18,8 +19,8 @@ public class Methods {
         return choices[questionNum][userInput];
     }
 
-    public String getCharacterResponse(String [] responses) {
-        return responses[userInput];
+    public String getCharacterResponse(String [][] responses, int questionNum) {
+        return responses[questionNum][userInput];
     }
 
     public String listChoices(String [][] possibleResponses, int questionIndex) {
