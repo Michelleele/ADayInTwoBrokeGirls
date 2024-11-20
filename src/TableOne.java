@@ -1,4 +1,4 @@
-public class ActOne {
+public class TableOne {
     public String [] introduction = {
             "Customer #1: Hello? Can we get some seats?",
             "Customer #2: I told you we should've went to the diner across the street.",
@@ -51,6 +51,10 @@ public class ActOne {
             }
     };
 
+    public String [] outcomes = {
+            "You actually had never made coffee before in your life. \nYou rushed through the process and handed the coffee to the customers",
+            "Yesterday, you begged your sister who was a barista at a local coffee shop to teach you how to make coffee. \nAfter spending the whole afternoon practicing, you familiarized yourself with the process and brought the coffee to the customers within 5 minutes. "
+    };
 
 
 }
