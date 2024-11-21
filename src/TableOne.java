@@ -1,4 +1,5 @@
 public class TableOne {
+
     public String [] introduction = {
             "Customer #1: Hello? Can we get some seats?",
             "Customer #2: I told you we should've went to the diner across the street.",
