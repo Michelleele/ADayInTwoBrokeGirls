@@ -8,12 +8,26 @@ public class GameRunner {
         System.out.println();
         System.out.println("---------------------------------------------------------------------------------------------");
         System.out.println(method.listChoices(userLines, eventNum));
-        System.out.print(method.enterSelection);
-        System.out.println("---------------------------------------------------------------------------------------------\n\nYou: " + method.getUserChoice(userLines, eventNum));
-        System.out.println();
+        System.out.println("You: " + method.enterSelection);
         Thread.sleep(2000);
         System.out.println(characterName + method.getCharacterResponse(characterResponses, eventNum));
         System.out.println();
+    }
+
+    public String checkInput (String [][] choices, int questionNum) {
+        boolean isValid = false;
+        while (!isValid) {
+            try {
+                System.out.print(method.getUserChoice(choices, questionNum));
+                return method.getUserChoice(choices, questionNum);
+            }
+            catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println();
+                System.out.println("You have entered an invalid response. Please enter 1, 2 or 3.");
+                System.out.print(method.enterSelection);
+            }
+        }
+        return "";
     }
 
     public void printLines(String [] lines) throws InterruptedException  {
