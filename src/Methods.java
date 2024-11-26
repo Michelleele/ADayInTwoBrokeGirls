@@ -1,8 +1,5 @@
-import java.util.Scanner;
+
 public class Methods {
-    Scanner kyx = new Scanner(System.in);
-    public int userInput;
-    public String userGreetingCustomer = "You: Hey guys! What can I get you?\n\n";
 
     public String [][] carolineEncouragements = {
             {

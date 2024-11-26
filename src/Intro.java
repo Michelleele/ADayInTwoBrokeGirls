@@ -1,7 +1,5 @@
-import java.util.Scanner;
 public class Intro {
-    Scanner kyx = new Scanner(System.in);
-    private int userInput;
+
     public String[] setScene = {
             "Welcome to a day in the life of the 2 Broke Girls!",
             "You found yourself as a first day trainee at the Williamsburg Diner of the viral TV show 2 Broke Girls.",
@@ -21,17 +19,14 @@ public class Intro {
     public String [] introSelections = {
             "Max: Oh great, fresh meat. You must be the new \"unpaid intern\" Han hired to do the jobs we hate.",
             "Earl: Honey, around here, survival is all about keeping your head down and your sass up."
-            //user can choose what to respond
     };
 
     public String [][] userIntroLines = {
-            //user possible responses for max
             {
                 "I'm here to work. What's the first task?",
                 "Well, someone's gotta pick up the slack around here, right?",
                 "So, what exactly did I sign up for?"
             },
-            //possible user responses for Earl
             {
                 "Sass up? Uhhhhh..... what's the sassiest way to say okay?",
                 "Great. I've been practicing my sass in front of the mirror for years",
@@ -39,7 +34,6 @@ public class Intro {
             }
     };
 
-    //corresponding Max replies to user
     public String [][] maxResponses = {
             {
                     "Max: Oh look, an eager beaver. Don't worry, we'll break you in soon enough.",
@@ -48,7 +42,7 @@ public class Intro {
             }
     };
 
-    //corresponding Oleg replies to user
+
     public String [][] olegResponses = {
             {
                     "Oleg: Okay? that's easy. Just add a wink and a smirk. Like this ---- Okaaaaay!",
