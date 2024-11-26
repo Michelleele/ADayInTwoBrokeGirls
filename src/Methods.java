@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Methods {
     Scanner kyx = new Scanner(System.in);
     public int userInput;
-    public String enterSelection = "Enter the number of your chosen response (1, 2 or 3): ";
     public String userGreetingCustomer = "You: Hey guys! What can I get you?\n\n";
 
     public String [][] carolineEncouragements = {
@@ -22,26 +21,17 @@ public class Methods {
             }
     };
 
-    public String randomResponse(String[][] lines, int questionNum, int indexNum) {
-        int x = (int) (Math.random() * (indexNum + 1));
-        return lines[questionNum][x];
+    public String randomResponse(String[] lines) {
+        int x = (int) (Math.random() * (lines.length));
+        return lines[x];
     }
 
-    public String getUserChoice(String [][] choices, int questionNum) {
-        userInput = kyx.nextInt();
-        userInput --;
-        return choices[questionNum][userInput];
+    public int random1Or2() {
+        return (int) (Math.random() * 2) + 1;
     }
 
-    public String getCharacterResponse(String [][] responses, int questionNum) {
-        return responses[questionNum][userInput];
+    public String getResponse(String [] responses, int indexNum) {
+        return responses[indexNum];
     }
 
-    public String listChoices(String [][] possibleResponses, int questionIndex) {
-        String temp = "";
-        for (int x = 0; x < possibleResponses[questionIndex].length; x++) {
-            temp += (x + 1) + ") " + possibleResponses[questionIndex][x] + "\n";
-        }
-        return temp;
-    }
 }

@@ -50,11 +50,10 @@ public class Intro {
 
     //corresponding Oleg replies to user
     public String [][] olegResponses = {
-            {},
             {
-                    "Okay? that's easy. Just add a wink and a smirk. Like this ---- Okaaaaay!",
-                    "Practicing alone? That's no fun. Next time, call me.",
-                    "The customers can handle it. Han? Not so much. But it's fun to try."
+                    "Oleg: Okay? that's easy. Just add a wink and a smirk. Like this ---- Okaaaaay!",
+                    "Oleg: Practicing alone? That's no fun. Next time, call me.",
+                    "Oleg: The customers can handle it. Han? Not so much. But it's fun to try."
             }
     };
 
